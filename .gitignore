@@ -1,0 +1,28 @@
+
+# SVN system folders
+.svn
+
+# Visual Source Safe files
+vssver2.scc
+
+# Visual Studio temporary/output folders while Building
+obj
+bin
+ClientBin
+debug
+release
+*.suo
+*.user
+
+# Visual Studio output folders for UnitTests
+TestResults
+
+# Visual Studio output folders/files on project upgrading
+_UpgradeReport_Files
+UpgradeLog.XML
+
+# Windows temporary files
+Thumbs.db
+
+# PowerDesigner temporary files
+*.pdb
