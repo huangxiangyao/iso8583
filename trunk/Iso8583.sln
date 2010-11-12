@@ -7,17 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{83E4FCA8-0A20-419F-927E-978AE9622776}"
-	ProjectSection(SolutionItems) = preProject
-		docs\ISO8583域说明.doc = docs\ISO8583域说明.doc
-		docs\ISO8583报文协议详解.doc = docs\ISO8583报文协议详解.doc
-		docs\ISO8583接口规范.doc = docs\ISO8583接口规范.doc
-		docs\MDSSEC04.PDF = docs\MDSSEC04.PDF
-		docs\pack.c = docs\pack.c
-		docs\pack.h = docs\pack.h
-		docs\全面掌握ISO8583报文协议.doc = docs\全面掌握ISO8583报文协议.doc
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iso8583", "Iso8583\Iso8583.csproj", "{57A812F1-AA3E-4E74-BCA2-F49618FFB00F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iso8583.Demo.Server", "Iso8583.Demo.Server\Iso8583.Demo.Server.csproj", "{B5B5A6D9-DB6F-48F3-9E7C-AECC5474289D}"
@@ -60,8 +49,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{83E4FCA8-0A20-419F-927E-978AE9622776} = {EBE1EAB5-8B6C-4DD5-96B5-B0CCE85B456B}
 	EndGlobalSection
 EndGlobal
