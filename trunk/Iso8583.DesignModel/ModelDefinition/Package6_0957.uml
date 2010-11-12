@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="1b67e055-4cb1-4a9b-88db-7bdd3fc5354a"
+  name="Parsing"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="7dca15ba-9e5e-44f0-9458-cba1c4799516"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=Solab.Iso8583.Parsing"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="e1445a2b-9bd1-4f63-87ad-acbac809eb7d"
+        name="FieldParseInfo"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="13cb6319-d13c-4bf5-8c24-3eefa3a63f1b"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///D:/ggitc/gica/3-implementation/Iso8583/Iso8583/bin/Debug/niso8583.dll Namespace=Solab.Iso8583.Parsing Type=FieldParseInfo"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="8478fbe7-85fc-4f92-9d73-c1d049721535"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="88754d91-79f2-4206-9a14-9d55f3976993">
+                <propertyInstance
+                  Id="43f1d9bb-7792-42ae-84b0-dcbd6427a601"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3d5f2e8f-1963-483d-988a-dd57fdbba21b">
+                <propertyInstance
+                  Id="d5225a1f-0bc9-48f7-826e-90200d051861"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f3722a82-4463-4902-a39b-68d161d4fef1">
+                <propertyInstance
+                  Id="0d63cb42-8f18-4f90-840c-2b3932866778"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e86c5a97-3f29-4ac3-84cf-232a33a624ce">
+                <propertyInstance
+                  Id="49d4f3be-ab74-474a-a614-aae24c1c45aa"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="91981ae5-6053-4c57-b562-a7edcfcbf350">
+                <propertyInstance
+                  Id="17a0cc38-6803-4501-a936-78873eee6180"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

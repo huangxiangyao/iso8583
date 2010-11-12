@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EBE1EAB5-8B6C-4DD5-96B5-B0CCE85B456B}"
+	ProjectSection(SolutionItems) = preProject
+		Iso8583.vsmdi = Iso8583.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{83E4FCA8-0A20-419F-927E-978AE9622776}"
+	ProjectSection(SolutionItems) = preProject
+		docs\ISO8583域说明.doc = docs\ISO8583域说明.doc
+		docs\ISO8583报文协议详解.doc = docs\ISO8583报文协议详解.doc
+		docs\ISO8583接口规范.doc = docs\ISO8583接口规范.doc
+		docs\MDSSEC04.PDF = docs\MDSSEC04.PDF
+		docs\pack.c = docs\pack.c
+		docs\pack.h = docs\pack.h
+		docs\全面掌握ISO8583报文协议.doc = docs\全面掌握ISO8583报文协议.doc
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iso8583", "Iso8583\Iso8583.csproj", "{57A812F1-AA3E-4E74-BCA2-F49618FFB00F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iso8583.Demo.Server", "Iso8583.Demo.Server\Iso8583.Demo.Server.csproj", "{B5B5A6D9-DB6F-48F3-9E7C-AECC5474289D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iso8583.Demo.Client", "Iso8583.Demo.Client\Iso8583.Demo.Client.csproj", "{EC57EBF4-0528-4888-BFAC-1F550FA942D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iso8583.UnitTests", "Iso8583.UnitTests\Iso8583.UnitTests.csproj", "{AA748415-D340-4E24-A6D4-35A79CBC9A44}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Iso8583.DesignModel", "Iso8583.DesignModel\Iso8583.DesignModel.modelproj", "{441C9CB8-E085-4785-A55B-922349EC6BF0}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Iso8583.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57A812F1-AA3E-4E74-BCA2-F49618FFB00F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57A812F1-AA3E-4E74-BCA2-F49618FFB00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57A812F1-AA3E-4E74-BCA2-F49618FFB00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57A812F1-AA3E-4E74-BCA2-F49618FFB00F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5B5A6D9-DB6F-48F3-9E7C-AECC5474289D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5B5A6D9-DB6F-48F3-9E7C-AECC5474289D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5B5A6D9-DB6F-48F3-9E7C-AECC5474289D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5B5A6D9-DB6F-48F3-9E7C-AECC5474289D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC57EBF4-0528-4888-BFAC-1F550FA942D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC57EBF4-0528-4888-BFAC-1F550FA942D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC57EBF4-0528-4888-BFAC-1F550FA942D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC57EBF4-0528-4888-BFAC-1F550FA942D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA748415-D340-4E24-A6D4-35A79CBC9A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA748415-D340-4E24-A6D4-35A79CBC9A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA748415-D340-4E24-A6D4-35A79CBC9A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA748415-D340-4E24-A6D4-35A79CBC9A44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{441C9CB8-E085-4785-A55B-922349EC6BF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441C9CB8-E085-4785-A55B-922349EC6BF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441C9CB8-E085-4785-A55B-922349EC6BF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441C9CB8-E085-4785-A55B-922349EC6BF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{83E4FCA8-0A20-419F-927E-978AE9622776} = {EBE1EAB5-8B6C-4DD5-96B5-B0CCE85B456B}
+	EndGlobalSection
+EndGlobal
