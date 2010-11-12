@@ -1,6 +1,7 @@
 ﻿using Solab.Iso8583.Parsing;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Solab.Iso8583;
+using System;
 
 namespace Iso8583.UnitTests
 {
@@ -73,7 +74,7 @@ namespace Iso8583.UnitTests
 
             mfact.AssignDate = true;
             mfact.TraceGenerator = new SimpleTraceGenerator(1);
-
+            
             Assert.IsTrue(mfact.GetIsoHeader(0x200) == "ISO015000050");
             Assert.IsTrue(mfact.GetIsoHeader(0x210) == "ISO015000055");
             Assert.IsTrue(mfact.GetIsoHeader(0x400) == "ISO015000050");
