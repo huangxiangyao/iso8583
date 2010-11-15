@@ -157,21 +157,21 @@ namespace Solab.Iso8583
                 length = v.Length;
                 if (length > 100)
                 {
-                    outs.WriteByte((byte)((length / 100) + 48));
+                    outs.WriteByte((byte)((length / 100) + 0x30));
                 }
                 else if (type == IsoType.LLLVAR)
                 {
-                    outs.WriteByte(48);
+                    outs.WriteByte(0x30);
                 }
                 if (length >= 10)
                 {
-                    outs.WriteByte((byte)(((length % 100) / 10) + 48));
+                    outs.WriteByte((byte)(((length % 100) / 10) + 0x30));
                 }
                 else
                 {
-                    outs.WriteByte(48);
+                    outs.WriteByte(0x30);
                 }
-                outs.WriteByte((byte)((length % 10) + 48));
+                outs.WriteByte((byte)((length % 10) + 0x30));
             }
             byte[] buf = Encoding.ASCII.GetBytes(v);
             outs.Write(buf, 0, buf.Length);
@@ -181,7 +181,5 @@ namespace Solab.Iso8583
         {
             return MemberwiseClone();
         }
-
     }
-
 }
